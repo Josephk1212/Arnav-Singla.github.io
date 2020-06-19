@@ -29,6 +29,8 @@ p {
 }
 
 nav {
+    position: sticky;
+    top:0;
     align-items: center;
     display: flex;
     justify-content: space-between;
