@@ -10,7 +10,11 @@ body {
     font-size: 18px;
 }
 
-h1, p, h2 {
+h4 {
+    color: rgb(189, 42, 42);
+}
+
+h1, p, h2, h4 {
     padding: 0 20px;
 }
 
@@ -69,4 +73,20 @@ th, td {
 
 td {
     height: 30px;
+}
+
+.heading {
+    display: flex;
+}
+
+
+.PSG {
+    width: 50%;
+    margin-left: 15px;
+    flex: 1;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
 }
